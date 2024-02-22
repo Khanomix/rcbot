@@ -6,7 +6,7 @@ from telegram import Update
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, ConversationHandler, CallbackContext
 from telegram.error import BadRequest
 
-bot_token = os.environ.get("BOT_TOKEN")
+bot_token = os.environ.get("5818933310:AAHEHQPr_e2XXkIN7UEJPNjkZ0dZIwDyuT4")
 # EMAIL, PASSWORD, TOKEN, MEGA_EMAIL, MEGA_PASSWORD, KOOFR_EMAIL, KOOFR_PASSWORD = range(7)
 services = ["PIKPAK_EMAIL", "PIKPAK_PASSWORD", "TELEBOX_TOKEN", "MEGA_EMAIL", "MEGA_PASSWORD", "KOOFR_EMAIL", "KOOFR_PASSWORD", "PROTON_EMAIL", "PROTON_PASSWORD", "JOTTA_TOKEN"]
 credentials = range(len(services))
